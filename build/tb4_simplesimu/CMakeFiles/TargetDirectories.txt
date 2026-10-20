@@ -1,0 +1,9 @@
+/home/huy/tb4_simplesimu/build/tb4_simplesimu/CMakeFiles/uninstall.dir
+/home/huy/tb4_simplesimu/build/tb4_simplesimu/CMakeFiles/tb4_simplesimu_uninstall.dir
+/home/huy/tb4_simplesimu/build/tb4_simplesimu/CMakeFiles/test.dir
+/home/huy/tb4_simplesimu/build/tb4_simplesimu/CMakeFiles/edit_cache.dir
+/home/huy/tb4_simplesimu/build/tb4_simplesimu/CMakeFiles/rebuild_cache.dir
+/home/huy/tb4_simplesimu/build/tb4_simplesimu/CMakeFiles/list_install_components.dir
+/home/huy/tb4_simplesimu/build/tb4_simplesimu/CMakeFiles/install.dir
+/home/huy/tb4_simplesimu/build/tb4_simplesimu/CMakeFiles/install/local.dir
+/home/huy/tb4_simplesimu/build/tb4_simplesimu/CMakeFiles/install/strip.dir

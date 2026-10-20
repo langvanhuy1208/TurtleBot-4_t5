@@ -1,0 +1,8 @@
+source;share/tb4_simplesimu/hook/cmake_prefix_path.ps1
+source;share/tb4_simplesimu/hook/cmake_prefix_path.dsv
+source;share/tb4_simplesimu/hook/cmake_prefix_path.sh
+source;share/tb4_simplesimu/local_setup.bash
+source;share/tb4_simplesimu/local_setup.dsv
+source;share/tb4_simplesimu/local_setup.ps1
+source;share/tb4_simplesimu/local_setup.sh
+source;share/tb4_simplesimu/local_setup.zsh

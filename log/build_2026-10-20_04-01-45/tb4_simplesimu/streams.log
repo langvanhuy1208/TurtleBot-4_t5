@@ -1,0 +1,45 @@
+[30.044s] Invoking command in '/home/huy/tb4_simplesimu/build/tb4_simplesimu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/huy/tb4_simplesimu/build/tb4_simplesimu -- -j12 -l12
+[30.100s] Invoked command in '/home/huy/tb4_simplesimu/build/tb4_simplesimu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/huy/tb4_simplesimu/build/tb4_simplesimu -- -j12 -l12
+[30.109s] Invoking command in '/home/huy/tb4_simplesimu/build/tb4_simplesimu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/huy/tb4_simplesimu/build/tb4_simplesimu
+[30.115s] -- Install configuration: ""
+[30.116s] -- Execute custom install script
+[30.116s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/launch/__pycache__/autonomous_demo.launch.cpython-310.pyc
+[30.116s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/launch/__pycache__/sim_nav.launch.cpython-310.pyc
+[30.116s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/launch/__pycache__/sim_slam.launch.cpython-310.pyc
+[30.116s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/launch/autonomous_demo.launch.py
+[30.116s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/launch/sim_nav.launch.py
+[30.116s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/launch/sim_slam.launch.py
+[30.117s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/maps/phase2/map.pgm
+[30.117s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/maps/phase2/map.yaml
+[30.117s] -- Symlinking: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/config/localization.yaml
+[30.125s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/config/nav.rviz
+[30.125s] -- Symlinking: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/config/nav2.yaml
+[30.130s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/config/slam.yaml
+[30.130s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/scripts/__pycache__/auto_mapper.cpython-310.pyc
+[30.130s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/scripts/__pycache__/odom_tf_broadcaster.cpython-310.pyc
+[30.130s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/scripts/__pycache__/waypoint_navigator.cpython-310.pyc
+[30.130s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/scripts/__pycache__/yolo_detector.cpython-310.pyc
+[30.130s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/scripts/auto_mapper.py
+[30.130s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/scripts/odom_tf_broadcaster.py
+[30.130s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/scripts/waypoint_navigator.py
+[30.130s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/scripts/yolo_detector.py
+[30.131s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/lib/tb4_simplesimu/auto_mapper.py
+[30.131s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/lib/tb4_simplesimu/waypoint_navigator.py
+[30.131s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/lib/tb4_simplesimu/yolo_detector.py
+[30.131s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/lib/tb4_simplesimu/odom_tf_broadcaster.py
+[30.131s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/ament_index/resource_index/package_run_dependencies/tb4_simplesimu
+[30.131s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/ament_index/resource_index/parent_prefix_path/tb4_simplesimu
+[30.131s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/environment/ament_prefix_path.sh
+[30.131s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/environment/ament_prefix_path.dsv
+[30.131s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/environment/path.sh
+[30.131s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/environment/path.dsv
+[30.131s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/local_setup.bash
+[30.131s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/local_setup.sh
+[30.131s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/local_setup.zsh
+[30.132s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/local_setup.dsv
+[30.132s] -- Symlinking: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/package.dsv
+[30.137s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/ament_index/resource_index/packages/tb4_simplesimu
+[30.137s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/cmake/tb4_simplesimuConfig.cmake
+[30.137s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/cmake/tb4_simplesimuConfig-version.cmake
+[30.137s] -- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/package.xml
+[60.058s] Invoked command in '/home/huy/tb4_simplesimu/build/tb4_simplesimu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/huy/tb4_simplesimu/build/tb4_simplesimu

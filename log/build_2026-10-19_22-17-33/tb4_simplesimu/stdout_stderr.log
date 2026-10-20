@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/launch/sim_nav.launch.py
+-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/launch/sim_slam.launch.py
+-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/maps/map.pgm
+-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/maps/map.yaml
+-- Symlinking: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/config/slam.yaml
+-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/scripts/auto_mapper.py
+-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/lib/tb4_simplesimu/auto_mapper.py
+-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/ament_index/resource_index/package_run_dependencies/tb4_simplesimu
+-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/ament_index/resource_index/parent_prefix_path/tb4_simplesimu
+-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/environment/path.sh
+-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/environment/path.dsv
+-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/local_setup.bash
+-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/local_setup.sh
+-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/local_setup.zsh
+-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/local_setup.dsv
+-- Symlinking: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/package.dsv
+-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/ament_index/resource_index/packages/tb4_simplesimu
+-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/cmake/tb4_simplesimuConfig.cmake
+-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/cmake/tb4_simplesimuConfig-version.cmake
+-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/package.xml

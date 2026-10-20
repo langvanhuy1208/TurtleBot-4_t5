@@ -1,0 +1,1 @@
+/home/huy/tb4_simplesimu/scripts/yolo_detector.py

@@ -1,0 +1,360 @@
+[0.000000] (-) TimerEvent: {}
+[0.002042] (tb4_simplesimu) JobQueued: {'identifier': 'tb4_simplesimu', 'dependencies': OrderedDict()}
+[0.002625] (tb4_simplesimu) JobStarted: {'identifier': 'tb4_simplesimu'}
+[0.016136] (tb4_simplesimu) JobProgress: {'identifier': 'tb4_simplesimu', 'progress': 'cmake'}
+[0.016690] (tb4_simplesimu) JobProgress: {'identifier': 'tb4_simplesimu', 'progress': 'build'}
+[0.018738] (tb4_simplesimu) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huy/tb4_simplesimu/build/tb4_simplesimu', '--', '-j12', '-l12'], 'cwd': '/home/huy/tb4_simplesimu/build/tb4_simplesimu', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/huy'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('GZ_SIM_RESOURCE_PATH', ':/opt/ros/humble/share:/home/huy/ros2_ws/install:/home/huy/ur3_llm_ws/install:/opt/ros/humble/share:/home/huy/ros2_ws/install:/home/huy/ur3_llm_ws/install:/opt/ros/humble/share:/home/huy/ros2_ws/install:/home/huy/ur3_llm_ws/install:/opt/ros/humble/share:/home/huy/ros2_ws/install:/home/huy/ur3_llm_ws/install:/opt/ros/humble/share:/home/huy/ros2_ws/install:/home/huy/ur3_llm_ws/install'), ('USER', 'huy'), ('LC_TIME', 'vi_VN'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/huy'), ('CHROME_DESKTOP', 'com.microsoft.VSCode.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/huy/.nvm/versions/node/v24.21.0/bin'), ('NVM_INC', '/home/huy/.nvm/versions/node/v24.21.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-bf310c03-1.14-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/com.microsoft.VSCode.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('PS1', '${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1054'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1773'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('NINE_ROUTER_MODEL', 'ag/gemini-3.8-flash'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '75878'), ('NVM_DIR', '/home/huy/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('COLCON_PREFIX_PATH', '/home/huy/colcon_ws/install'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'huy'), ('JOURNAL_STREAM', '8:11053'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('RUST_LOG', 'warn'), ('USERNAME', 'huy'), ('TERM', 'dumb'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/huy/.local/bin:/home/huy/.codex/tmp/arg0/codex-arg0Gg6C7d:/home/huy/.local/bin:/home/huy/.local/bin:/home/huy/.nvm/versions/node/v24.21.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huy/.vscode/extensions/openai.chatgpt-26.1007.21434-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/huy-ASUS-TUF-Dash-F15-FX517ZC-FX517ZC:@/tmp/.ICE-unix/1745,unix/huy-ASUS-TUF-Dash-F15-FX517ZC-FX517ZC:/tmp/.ICE-unix/1745'), ('CODEX_VERSION', '0.162.0-alpha.17.2'), ('CODEX_SESSION_ID', '01a155d0-7057-79f3-a185-6c2552bd54b3'), ('INVOCATION_ID', '91da69288f1d4ffe8571b029e76775a1'), ('VSCODE_NODE_COMPILE_CACHE_ROOT', '/usr/share/code/resources/app/node-compile-cache'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/huy/colcon_ws/install/tb4_simplesimu:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', ':/opt/ros/humble/share:/home/huy/ros2_ws/install:/home/huy/ur3_llm_ws/install:/opt/ros/humble/share:/home/huy/ros2_ws/install:/home/huy/ur3_llm_ws/install:/opt/ros/humble/share:/home/huy/ros2_ws/install:/home/huy/ur3_llm_ws/install:/opt/ros/humble/share:/home/huy/ros2_ws/install:/home/huy/ur3_llm_ws/install:/opt/ros/humble/share:/home/huy/ros2_ws/install:/home/huy/ur3_llm_ws/install'), ('NINE_ROUTER_BASE_URL', 'http://localhost:20128/v1'), ('CODEX_THREAD_ID', '01a155d0-7057-79f3-a185-6c2552bd54b3'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11::/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('NINE_ROUTER_API_KEY', 'sk-627fd747d8f8e5f1-acvslz-3b6cf10f'), ('PWD', '/home/huy/tb4_simplesimu/build/tb4_simplesimu'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/huy/.config/Code/CachedData/07f806f999227108933c2e30515b26eecc1fda74'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '4.1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MESA_LOADER_DRIVER_NAME', 'llvmpipe'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/huy/colcon_ws/install/tb4_simplesimu:/opt/ros/humble'), ('VSCODE_PID', '75878')]), 'shell': False}
+[0.049176] (tb4_simplesimu) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100924] (-) TimerEvent: {}
+[0.201130] (-) TimerEvent: {}
+[0.233915] (tb4_simplesimu) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.301266] (-) TimerEvent: {}
+[0.351464] (tb4_simplesimu) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.352012] (tb4_simplesimu) StdoutLine: {'line': b'-- Generating done\n'}
+[0.355306] (tb4_simplesimu) StdoutLine: {'line': b'-- Build files have been written to: /home/huy/tb4_simplesimu/build/tb4_simplesimu\n'}
+[0.401406] (-) TimerEvent: {}
+[0.501668] (-) TimerEvent: {}
+[0.601881] (-) TimerEvent: {}
+[0.702080] (-) TimerEvent: {}
+[0.804874] (-) TimerEvent: {}
+[0.905093] (-) TimerEvent: {}
+[1.005310] (-) TimerEvent: {}
+[1.105528] (-) TimerEvent: {}
+[1.205860] (-) TimerEvent: {}
+[1.309426] (-) TimerEvent: {}
+[1.409620] (-) TimerEvent: {}
+[1.510762] (-) TimerEvent: {}
+[1.610993] (-) TimerEvent: {}
+[1.711201] (-) TimerEvent: {}
+[1.811470] (-) TimerEvent: {}
+[1.911758] (-) TimerEvent: {}
+[2.011975] (-) TimerEvent: {}
+[2.112755] (-) TimerEvent: {}
+[2.213001] (-) TimerEvent: {}
+[2.313204] (-) TimerEvent: {}
+[2.413479] (-) TimerEvent: {}
+[2.513768] (-) TimerEvent: {}
+[2.614081] (-) TimerEvent: {}
+[2.714419] (-) TimerEvent: {}
+[2.814648] (-) TimerEvent: {}
+[2.917876] (-) TimerEvent: {}
+[3.018306] (-) TimerEvent: {}
+[3.118558] (-) TimerEvent: {}
+[3.218787] (-) TimerEvent: {}
+[3.319033] (-) TimerEvent: {}
+[3.419263] (-) TimerEvent: {}
+[3.521865] (-) TimerEvent: {}
+[3.622107] (-) TimerEvent: {}
+[3.722328] (-) TimerEvent: {}
+[3.824753] (-) TimerEvent: {}
+[3.924968] (-) TimerEvent: {}
+[4.025195] (-) TimerEvent: {}
+[4.125444] (-) TimerEvent: {}
+[4.225670] (-) TimerEvent: {}
+[4.327760] (-) TimerEvent: {}
+[4.428003] (-) TimerEvent: {}
+[4.528244] (-) TimerEvent: {}
+[4.628470] (-) TimerEvent: {}
+[4.728679] (-) TimerEvent: {}
+[4.829005] (-) TimerEvent: {}
+[4.929219] (-) TimerEvent: {}
+[5.032485] (-) TimerEvent: {}
+[5.132770] (-) TimerEvent: {}
+[5.233008] (-) TimerEvent: {}
+[5.333232] (-) TimerEvent: {}
+[5.433759] (-) TimerEvent: {}
+[5.534104] (-) TimerEvent: {}
+[5.634701] (-) TimerEvent: {}
+[5.735098] (-) TimerEvent: {}
+[5.835319] (-) TimerEvent: {}
+[5.936507] (-) TimerEvent: {}
+[6.036817] (-) TimerEvent: {}
+[6.137174] (-) TimerEvent: {}
+[6.237491] (-) TimerEvent: {}
+[6.339514] (-) TimerEvent: {}
+[6.439851] (-) TimerEvent: {}
+[6.540152] (-) TimerEvent: {}
+[6.640440] (-) TimerEvent: {}
+[6.740770] (-) TimerEvent: {}
+[6.841112] (-) TimerEvent: {}
+[6.942750] (-) TimerEvent: {}
+[7.042973] (-) TimerEvent: {}
+[7.143194] (-) TimerEvent: {}
+[7.244301] (-) TimerEvent: {}
+[7.344505] (-) TimerEvent: {}
+[7.445910] (-) TimerEvent: {}
+[7.546124] (-) TimerEvent: {}
+[7.646349] (-) TimerEvent: {}
+[7.746560] (-) TimerEvent: {}
+[7.846753] (-) TimerEvent: {}
+[7.950743] (-) TimerEvent: {}
+[8.050957] (-) TimerEvent: {}
+[8.151216] (-) TimerEvent: {}
+[8.251765] (-) TimerEvent: {}
+[8.351970] (-) TimerEvent: {}
+[8.452283] (-) TimerEvent: {}
+[8.552601] (-) TimerEvent: {}
+[8.655869] (-) TimerEvent: {}
+[8.756104] (-) TimerEvent: {}
+[8.857768] (-) TimerEvent: {}
+[8.958002] (-) TimerEvent: {}
+[9.058226] (-) TimerEvent: {}
+[9.158454] (-) TimerEvent: {}
+[9.258762] (-) TimerEvent: {}
+[9.359122] (-) TimerEvent: {}
+[9.461458] (-) TimerEvent: {}
+[9.561790] (-) TimerEvent: {}
+[9.661997] (-) TimerEvent: {}
+[9.762209] (-) TimerEvent: {}
+[9.864749] (-) TimerEvent: {}
+[9.964969] (-) TimerEvent: {}
+[10.065204] (-) TimerEvent: {}
+[10.165464] (-) TimerEvent: {}
+[10.265719] (-) TimerEvent: {}
+[10.365928] (-) TimerEvent: {}
+[10.466135] (-) TimerEvent: {}
+[10.566358] (-) TimerEvent: {}
+[10.666582] (-) TimerEvent: {}
+[10.766757] (-) TimerEvent: {}
+[10.866957] (-) TimerEvent: {}
+[10.967310] (-) TimerEvent: {}
+[11.069947] (-) TimerEvent: {}
+[11.170228] (-) TimerEvent: {}
+[11.270469] (-) TimerEvent: {}
+[11.370818] (-) TimerEvent: {}
+[11.471034] (-) TimerEvent: {}
+[11.571353] (-) TimerEvent: {}
+[11.671553] (-) TimerEvent: {}
+[11.771761] (-) TimerEvent: {}
+[11.871979] (-) TimerEvent: {}
+[11.972206] (-) TimerEvent: {}
+[12.072447] (-) TimerEvent: {}
+[12.172651] (-) TimerEvent: {}
+[12.272875] (-) TimerEvent: {}
+[12.374757] (-) TimerEvent: {}
+[12.474991] (-) TimerEvent: {}
+[12.575300] (-) TimerEvent: {}
+[12.675536] (-) TimerEvent: {}
+[12.775769] (-) TimerEvent: {}
+[12.876008] (-) TimerEvent: {}
+[12.976264] (-) TimerEvent: {}
+[13.078871] (-) TimerEvent: {}
+[13.179101] (-) TimerEvent: {}
+[13.279326] (-) TimerEvent: {}
+[13.379750] (-) TimerEvent: {}
+[13.479965] (-) TimerEvent: {}
+[13.580190] (-) TimerEvent: {}
+[13.680773] (-) TimerEvent: {}
+[13.780982] (-) TimerEvent: {}
+[13.882037] (-) TimerEvent: {}
+[13.982251] (-) TimerEvent: {}
+[14.082749] (-) TimerEvent: {}
+[14.182973] (-) TimerEvent: {}
+[14.283188] (-) TimerEvent: {}
+[14.385869] (-) TimerEvent: {}
+[14.486075] (-) TimerEvent: {}
+[14.586304] (-) TimerEvent: {}
+[14.689085] (-) TimerEvent: {}
+[14.789400] (-) TimerEvent: {}
+[14.889757] (-) TimerEvent: {}
+[14.989958] (-) TimerEvent: {}
+[15.090173] (-) TimerEvent: {}
+[15.190521] (-) TimerEvent: {}
+[15.290759] (-) TimerEvent: {}
+[15.390972] (-) TimerEvent: {}
+[15.491306] (-) TimerEvent: {}
+[15.591536] (-) TimerEvent: {}
+[15.693467] (-) TimerEvent: {}
+[15.793698] (-) TimerEvent: {}
+[15.893950] (-) TimerEvent: {}
+[15.994152] (-) TimerEvent: {}
+[16.094639] (-) TimerEvent: {}
+[16.195033] (-) TimerEvent: {}
+[16.296750] (-) TimerEvent: {}
+[16.396966] (-) TimerEvent: {}
+[16.497194] (-) TimerEvent: {}
+[16.597476] (-) TimerEvent: {}
+[16.697754] (-) TimerEvent: {}
+[16.798051] (-) TimerEvent: {}
+[16.898263] (-) TimerEvent: {}
+[16.999185] (-) TimerEvent: {}
+[17.100806] (-) TimerEvent: {}
+[17.201091] (-) TimerEvent: {}
+[17.303556] (-) TimerEvent: {}
+[17.403857] (-) TimerEvent: {}
+[17.504106] (-) TimerEvent: {}
+[17.604335] (-) TimerEvent: {}
+[17.704585] (-) TimerEvent: {}
+[17.807760] (-) TimerEvent: {}
+[17.907972] (-) TimerEvent: {}
+[18.008173] (-) TimerEvent: {}
+[18.108566] (-) TimerEvent: {}
+[18.209414] (-) TimerEvent: {}
+[18.309725] (-) TimerEvent: {}
+[18.410370] (-) TimerEvent: {}
+[18.510595] (-) TimerEvent: {}
+[18.610872] (-) TimerEvent: {}
+[18.711213] (-) TimerEvent: {}
+[18.812756] (-) TimerEvent: {}
+[18.912987] (-) TimerEvent: {}
+[19.013207] (-) TimerEvent: {}
+[19.113420] (-) TimerEvent: {}
+[19.213648] (-) TimerEvent: {}
+[19.313930] (-) TimerEvent: {}
+[19.414139] (-) TimerEvent: {}
+[19.515902] (-) TimerEvent: {}
+[19.616112] (-) TimerEvent: {}
+[19.716336] (-) TimerEvent: {}
+[19.816563] (-) TimerEvent: {}
+[19.916759] (-) TimerEvent: {}
+[20.017173] (-) TimerEvent: {}
+[20.117373] (-) TimerEvent: {}
+[20.217726] (-) TimerEvent: {}
+[20.319540] (-) TimerEvent: {}
+[20.419776] (-) TimerEvent: {}
+[20.520076] (-) TimerEvent: {}
+[20.620396] (-) TimerEvent: {}
+[20.722748] (-) TimerEvent: {}
+[20.822961] (-) TimerEvent: {}
+[20.923203] (-) TimerEvent: {}
+[21.023437] (-) TimerEvent: {}
+[21.123652] (-) TimerEvent: {}
+[21.224788] (-) TimerEvent: {}
+[21.325075] (-) TimerEvent: {}
+[21.425299] (-) TimerEvent: {}
+[21.526495] (-) TimerEvent: {}
+[21.626726] (-) TimerEvent: {}
+[21.727051] (-) TimerEvent: {}
+[21.827261] (-) TimerEvent: {}
+[21.927478] (-) TimerEvent: {}
+[22.030759] (-) TimerEvent: {}
+[22.132751] (-) TimerEvent: {}
+[22.232978] (-) TimerEvent: {}
+[22.333198] (-) TimerEvent: {}
+[22.433421] (-) TimerEvent: {}
+[22.533872] (-) TimerEvent: {}
+[22.634751] (-) TimerEvent: {}
+[22.734963] (-) TimerEvent: {}
+[22.835390] (-) TimerEvent: {}
+[22.935643] (-) TimerEvent: {}
+[23.035882] (-) TimerEvent: {}
+[23.138165] (-) TimerEvent: {}
+[23.238403] (-) TimerEvent: {}
+[23.338937] (-) TimerEvent: {}
+[23.439217] (-) TimerEvent: {}
+[23.539493] (-) TimerEvent: {}
+[23.639691] (-) TimerEvent: {}
+[23.739895] (-) TimerEvent: {}
+[23.840198] (-) TimerEvent: {}
+[23.940717] (-) TimerEvent: {}
+[24.041028] (-) TimerEvent: {}
+[24.141247] (-) TimerEvent: {}
+[24.241553] (-) TimerEvent: {}
+[24.344748] (-) TimerEvent: {}
+[24.444966] (-) TimerEvent: {}
+[24.545165] (-) TimerEvent: {}
+[24.645362] (-) TimerEvent: {}
+[24.745559] (-) TimerEvent: {}
+[24.846745] (-) TimerEvent: {}
+[24.947018] (-) TimerEvent: {}
+[25.047589] (-) TimerEvent: {}
+[25.148234] (-) TimerEvent: {}
+[25.248586] (-) TimerEvent: {}
+[25.348767] (-) TimerEvent: {}
+[25.450762] (-) TimerEvent: {}
+[25.551002] (-) TimerEvent: {}
+[25.651227] (-) TimerEvent: {}
+[25.751455] (-) TimerEvent: {}
+[25.851706] (-) TimerEvent: {}
+[25.951931] (-) TimerEvent: {}
+[26.052152] (-) TimerEvent: {}
+[26.152372] (-) TimerEvent: {}
+[26.252658] (-) TimerEvent: {}
+[26.352986] (-) TimerEvent: {}
+[26.453900] (-) TimerEvent: {}
+[26.554187] (-) TimerEvent: {}
+[26.654560] (-) TimerEvent: {}
+[26.754919] (-) TimerEvent: {}
+[26.855218] (-) TimerEvent: {}
+[26.956749] (-) TimerEvent: {}
+[27.056959] (-) TimerEvent: {}
+[27.157164] (-) TimerEvent: {}
+[27.257440] (-) TimerEvent: {}
+[27.357811] (-) TimerEvent: {}
+[27.458096] (-) TimerEvent: {}
+[27.558372] (-) TimerEvent: {}
+[27.659846] (-) TimerEvent: {}
+[27.760140] (-) TimerEvent: {}
+[27.860359] (-) TimerEvent: {}
+[27.963800] (-) TimerEvent: {}
+[28.064004] (-) TimerEvent: {}
+[28.164215] (-) TimerEvent: {}
+[28.264533] (-) TimerEvent: {}
+[28.364845] (-) TimerEvent: {}
+[28.467753] (-) TimerEvent: {}
+[28.567978] (-) TimerEvent: {}
+[28.668191] (-) TimerEvent: {}
+[28.768461] (-) TimerEvent: {}
+[28.868758] (-) TimerEvent: {}
+[28.970157] (-) TimerEvent: {}
+[29.070373] (-) TimerEvent: {}
+[29.170678] (-) TimerEvent: {}
+[29.270904] (-) TimerEvent: {}
+[29.371138] (-) TimerEvent: {}
+[29.471573] (-) TimerEvent: {}
+[29.571765] (-) TimerEvent: {}
+[29.672761] (-) TimerEvent: {}
+[29.772988] (-) TimerEvent: {}
+[29.873198] (-) TimerEvent: {}
+[29.974774] (-) TimerEvent: {}
+[30.034400] (tb4_simplesimu) CommandEnded: {'returncode': 0}
+[30.036119] (tb4_simplesimu) JobProgress: {'identifier': 'tb4_simplesimu', 'progress': 'install'}
+[30.048505] (tb4_simplesimu) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/huy/tb4_simplesimu/build/tb4_simplesimu'], 'cwd': '/home/huy/tb4_simplesimu/build/tb4_simplesimu', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/huy'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('GZ_SIM_RESOURCE_PATH', ':/opt/ros/humble/share:/home/huy/ros2_ws/install:/home/huy/ur3_llm_ws/install:/opt/ros/humble/share:/home/huy/ros2_ws/install:/home/huy/ur3_llm_ws/install:/opt/ros/humble/share:/home/huy/ros2_ws/install:/home/huy/ur3_llm_ws/install:/opt/ros/humble/share:/home/huy/ros2_ws/install:/home/huy/ur3_llm_ws/install:/opt/ros/humble/share:/home/huy/ros2_ws/install:/home/huy/ur3_llm_ws/install'), ('USER', 'huy'), ('LC_TIME', 'vi_VN'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('__GLX_VENDOR_LIBRARY_NAME', 'nvidia'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/huy'), ('CHROME_DESKTOP', 'com.microsoft.VSCode.desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/huy/.nvm/versions/node/v24.21.0/bin'), ('NVM_INC', '/home/huy/.nvm/versions/node/v24.21.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-bf310c03-1.14-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/com.microsoft.VSCode.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('PS1', '${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1054'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1773'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('NINE_ROUTER_MODEL', 'ag/gemini-3.8-flash'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '75878'), ('NVM_DIR', '/home/huy/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('COLCON_PREFIX_PATH', '/home/huy/colcon_ws/install'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'huy'), ('JOURNAL_STREAM', '8:11053'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('RUST_LOG', 'warn'), ('USERNAME', 'huy'), ('TERM', 'dumb'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models::/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/huy/.local/bin:/home/huy/.codex/tmp/arg0/codex-arg0Gg6C7d:/home/huy/.local/bin:/home/huy/.local/bin:/home/huy/.nvm/versions/node/v24.21.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huy/.vscode/extensions/openai.chatgpt-26.1007.21434-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/huy-ASUS-TUF-Dash-F15-FX517ZC-FX517ZC:@/tmp/.ICE-unix/1745,unix/huy-ASUS-TUF-Dash-F15-FX517ZC-FX517ZC:/tmp/.ICE-unix/1745'), ('CODEX_VERSION', '0.162.0-alpha.17.2'), ('CODEX_SESSION_ID', '01a155d0-7057-79f3-a185-6c2552bd54b3'), ('INVOCATION_ID', '91da69288f1d4ffe8571b029e76775a1'), ('VSCODE_NODE_COMPILE_CACHE_ROOT', '/usr/share/code/resources/app/node-compile-cache'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('__NV_PRIME_RENDER_OFFLOAD', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/huy/colcon_ws/install/tb4_simplesimu:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', ':/opt/ros/humble/share:/home/huy/ros2_ws/install:/home/huy/ur3_llm_ws/install:/opt/ros/humble/share:/home/huy/ros2_ws/install:/home/huy/ur3_llm_ws/install:/opt/ros/humble/share:/home/huy/ros2_ws/install:/home/huy/ur3_llm_ws/install:/opt/ros/humble/share:/home/huy/ros2_ws/install:/home/huy/ur3_llm_ws/install:/opt/ros/humble/share:/home/huy/ros2_ws/install:/home/huy/ur3_llm_ws/install'), ('NINE_ROUTER_BASE_URL', 'http://localhost:20128/v1'), ('CODEX_THREAD_ID', '01a155d0-7057-79f3-a185-6c2552bd54b3'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11::/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('NINE_ROUTER_API_KEY', 'sk-627fd747d8f8e5f1-acvslz-3b6cf10f'), ('PWD', '/home/huy/tb4_simplesimu/build/tb4_simplesimu'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/huy/.config/Code/CachedData/07f806f999227108933c2e30515b26eecc1fda74'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '4.1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MESA_LOADER_DRIVER_NAME', 'llvmpipe'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/huy/colcon_ws/install/tb4_simplesimu:/opt/ros/humble'), ('VSCODE_PID', '75878')]), 'shell': False}
+[30.060949] (tb4_simplesimu) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.061167] (tb4_simplesimu) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[30.061521] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/launch/__pycache__/autonomous_demo.launch.cpython-310.pyc\n'}
+[30.063743] (tb4_simplesimu) StdoutLine: {'line': b'-- Symlinking: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/launch/__pycache__/sim_nav.launch.cpython-310.pyc\n'}
+[30.074877] (-) TimerEvent: {}
+[30.076393] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/launch/__pycache__/sim_slam.launch.cpython-310.pyc\n'}
+[30.076821] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/launch/autonomous_demo.launch.py\n'}
+[30.076928] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/launch/sim_nav.launch.py\n'}
+[30.077004] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/launch/sim_slam.launch.py\n'}
+[30.077258] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/maps/phase2/map.pgm\n'}
+[30.078326] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/maps/phase2/map.yaml\n'}
+[30.078418] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/config/localization.yaml\n'}
+[30.078492] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/config/nav.rviz\n'}
+[30.078563] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/config/nav2.yaml\n'}
+[30.078640] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/config/slam.yaml\n'}
+[30.079304] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/scripts/__pycache__/auto_mapper.cpython-310.pyc\n'}
+[30.079447] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/scripts/__pycache__/odom_tf_broadcaster.cpython-310.pyc\n'}
+[30.079528] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/scripts/__pycache__/waypoint_navigator.cpython-310.pyc\n'}
+[30.081190] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/scripts/__pycache__/yolo_detector.cpython-310.pyc\n'}
+[30.081335] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/scripts/auto_mapper.py\n'}
+[30.081415] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/scripts/odom_tf_broadcaster.py\n'}
+[30.081487] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/scripts/scan_retimestamp.py\n'}
+[30.081556] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/scripts/waypoint_navigator.py\n'}
+[30.081623] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/scripts/yolo_detector.py\n'}
+[30.081708] (tb4_simplesimu) StdoutLine: {'line': b'-- Symlinking: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/worlds/maze_fast.sdf\n'}
+[30.098767] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/lib/tb4_simplesimu/auto_mapper.py\n'}
+[30.099061] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/lib/tb4_simplesimu/waypoint_navigator.py\n'}
+[30.099213] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/lib/tb4_simplesimu/yolo_detector.py\n'}
+[30.099332] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/lib/tb4_simplesimu/odom_tf_broadcaster.py\n'}
+[30.099444] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/lib/tb4_simplesimu/scan_retimestamp.py\n'}
+[30.099544] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/ament_index/resource_index/package_run_dependencies/tb4_simplesimu\n'}
+[30.099644] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/ament_index/resource_index/parent_prefix_path/tb4_simplesimu\n'}
+[30.100143] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/environment/ament_prefix_path.sh\n'}
+[30.101322] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/environment/ament_prefix_path.dsv\n'}
+[30.101525] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/environment/path.sh\n'}
+[30.101662] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/environment/path.dsv\n'}
+[30.101814] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/local_setup.bash\n'}
+[30.101949] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/local_setup.sh\n'}
+[30.102072] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/local_setup.zsh\n'}
+[30.102295] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/local_setup.dsv\n'}
+[30.102419] (tb4_simplesimu) StdoutLine: {'line': b'-- Symlinking: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/package.dsv\n'}
+[30.116185] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/ament_index/resource_index/packages/tb4_simplesimu\n'}
+[30.116370] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/cmake/tb4_simplesimuConfig.cmake\n'}
+[30.116444] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/cmake/tb4_simplesimuConfig-version.cmake\n'}
+[30.116655] (tb4_simplesimu) StdoutLine: {'line': b'-- Up-to-date symlink: /home/huy/tb4_simplesimu/install/tb4_simplesimu/share/tb4_simplesimu/package.xml\n'}
+[30.118501] (tb4_simplesimu) CommandEnded: {'returncode': 0}
+[30.149241] (tb4_simplesimu) JobEnded: {'identifier': 'tb4_simplesimu', 'rc': 0}
+[30.149848] (-) EventReactorShutdown: {}
